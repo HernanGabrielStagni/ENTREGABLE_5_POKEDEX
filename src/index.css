@@ -7,7 +7,8 @@
 
 
 html {
-    font-family: 'Nunito Sans', sans-serif;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;    
 }
 
 body {
@@ -17,11 +18,13 @@ body {
 h1,h2 ,h3 ,h4, p, ul {
     margin-top: 0;
     margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
 }
 
 ul {
     list-style: none;
     padding-left:  0;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
 }
 
 input{
