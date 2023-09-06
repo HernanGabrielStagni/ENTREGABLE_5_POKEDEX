@@ -1,0 +1,68 @@
+.formPokeContainer{
+    /* background-color: red;  */
+    width: 100%;
+    /* height: 80px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.formPokeContainer__form{
+
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formPokeContainer__form input{
+    border-radius: .5em 0 0 .5em;
+    width: 12em;
+    /* min-width: 8em; */
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.formPokeContainer__form button{
+    border-radius: 0 .5em .5em 0;
+    background-color: red;
+    color: wheat;
+    width: 6em;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.formPokeContainer__select{
+    border-radius: .5em;
+    width: 16em;
+    height: 40px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    text-align: center;
+
+}
+ 
+@media (max-width: 576px){
+    .formPokeContainer__form input{
+        border-radius: .5em 0 0 .5em;
+        width: 10em;
+        /* min-width: 8em; */
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+    
+    .formPokeContainer__form button{
+        border-radius: 0 .5em .5em 0;
+        width: 4em;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        
+    }
+    
+    .formPokeContainer__select{
+        border-radius: .5em;
+        width: 14em;
+        height: 40px;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        text-align: center;
+    
+    }
+
+}
+

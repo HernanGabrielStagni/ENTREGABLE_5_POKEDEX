@@ -1,0 +1,57 @@
+ 
+.home__container{
+    background-color: #fdfbf8;
+    display: grid;
+    grid-template-rows: 1fr auto; /* La primera fila ocupa todo el alto disponible, la segunda fila se ajusta automáticamente al contenido */
+    height: 100vh; /* Esto asegura que el contenedor ocupe todo el alto de la ventana */
+
+}
+
+.home__body{
+    /* background-color: rgb(19, 57, 110); */
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+   
+    
+    /* background-color: rgb(187, 247, 227);  */
+}
+
+.home__body-banner{
+    height: 50%;
+    padding: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+
+
+}
+
+.home__body-saludo-login{
+/* background-color: rgb(157, 98, 205); */
+color: #FE1936;
+padding: 2em;
+
+height: 100%;
+display: grid;
+align-content: center;
+text-align: center; 
+}
+
+.home__body-saludo-login h2{
+color: black;
+}
+
+.home__body-saludo-login p{
+    color: rgb(239, 44, 10);
+    }
+
+
+
+.home__footer{
+    margin-bottom: 10%;
+/* align-self: end;  */
+}
+

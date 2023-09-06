@@ -1,0 +1,48 @@
+.pokeContainer__container{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.poke-container_with-pagination{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.poke__pagination{
+    /* height: 80px; */
+    /* background-color: blueviolet; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+    gap: 2em;
+}
+
+.poke-container{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(240px, 1fr));
+    gap: 1em;
+    margin-top: 1em;
+    padding-top: 2em;
+    row-gap: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 576px){
+    .poke-container_with-pagination{
+        width: 100%;
+       
+        
+    }
+}

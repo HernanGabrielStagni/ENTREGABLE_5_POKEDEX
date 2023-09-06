@@ -1,0 +1,332 @@
+.pokeInfo__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #fcefef;
+}
+
+.pokeInfo__header{
+    width: 100%;
+    height:260px;
+    background-image: url('../../img/headerPokeListImg.svg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.pokeInfo__text-container{
+    background-image: url("../../img/pokedexHeaderForm.svg");  
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 75%;  
+    width: 40%;
+    border: 0;
+    margin-left: 4em;
+    /* background-color: #FE1936; */
+      
+}
+
+
+.pokeInfo{
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+}
+
+
+/* contenedor de fondo degrades no lleva background lo tapa el degradez */
+.pokeInfoCard__header{
+   
+    width: 100%;
+    aspect-ratio: 5.5;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+/*IMAGEN DEL POKEMON*/
+.pokeInfoCard__header-sprite {
+    width: 30%;    
+    aspect-ratio: 1;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* FONDOS SEGUN EL TIPO DE POKEMON */
+.background-color-grass {
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+   }
+
+.background-color-fire {
+    background: linear-gradient(178.92deg,  #f25a02 0.92%, #d07d3f 47.96%, #d7ba8f 99.08%);
+}
+
+.background-color-water{
+    background: linear-gradient(178.92deg,  #1f3e64 0.92%, #89a6d7 47.96%, #648fa1 99.08%);
+}
+
+.background-color-bug{
+    background:linear-gradient(178.92deg,  #57a931 0.92%, #95d789 47.96%, #4dac27d4 99.08%);
+}
+
+
+
+
+.pokeInfo__card{
+    background-color: aquamarine;
+    width: 60%;
+    /* min-width: 360px; */
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.579);
+    border-radius: 15px;
+}
+
+/* Contenedor "general" del ID nombre de Pokémon altura peso tipo y habilidades */
+.info{
+/* background-color: #57a931; */
+    padding: .3em;
+}
+
+/*TEXTO DEL ID*/
+.pokeInfo__card-id{
+    /* margin-top: .1em; */
+    margin-bottom: .1em;
+    text-align: center;
+    font-size: 1rem;
+    
+}
+
+/*ESTILO DEL br  LINEA FINA SEPARADORA*/
+.pokeInfo__name{
+    margin-top: 20px;
+    position: relative;
+    height: 10px;
+    background-color: rebeccapurple;
+    
+}
+
+/*NOMBRE DEL POKEMON*/
+.pokeInfo__name h3 {
+    position: absolute;
+    background-color: white;
+    width: auto;
+    padding: .2em .8em .1em .8em;
+    top: -220%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    text-shadow: 1PX 1PX 3PX rgba(7, 7, 7, 0.851);
+}
+
+
+.pokeInfo__peso-altura{
+    background-color: #648fa1;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    padding-bottom: .5em;
+    padding-top: 1em;
+}
+
+.pokeInfo__peso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokeInfo__altura{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.peso_etiqueta {
+    font-size: .6em;
+    text-align: center;
+} 
+
+.altura_etiqueta {
+    font-size: .6em;
+    text-align: center;
+} 
+
+.types__abilities-title{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: no-wrap;
+    padding-bottom: .1em;
+}
+
+
+.types__abilities-values-container{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.types__abilities__values{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: .9rem;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.types__abilities__values-item{
+    border: 1px solid #57a931 ;
+    border-radius: 3px;
+    width: 40%;
+}
+
+.pokeInfo__stats{
+    padding: 0 1em 0 1em;
+}
+
+.pokeInfo__stats-item{
+    text-transform: capitalize;
+    font-size: .9rem;
+}
+
+
+.moves_card{
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.moves__list{
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+.moves__list-item{
+    background: #E5E5E5;
+    border-radius: 50px;    
+    width:max-content;
+    padding: 4px 20px;
+    font-size: .9rem;
+}
+
+
+
+@media (min-width: 100px){
+    .pokeInfo__header{
+        background-position: right;
+        width: 100vw;
+        height: 105px;
+        background-size: cover;
+        
+    }
+
+    .pokeInfo__text-container{
+        margin-left: 2.5em;
+        height: 92%;
+        width: 45%;
+    }
+    .pokeInfo__card{
+        width:95%; 
+       /* min-width: 360px; */
+    }
+
+    .types__abilities__values{
+        font-size: .7rem;
+    }
+}
+
+@media (min-width: 568px){
+    .pokeInfo__card{
+        width:90%; 
+       /* min-width: 360px; */
+    }
+
+    .types__abilities__values{
+        font-size: .8rem;
+    }
+}
+
+@media (min-width: 768px){
+    .pokeInfo__header{
+        background-position: right;
+        width: 100%;
+        height: 165px;
+        min-height: 100px;
+        
+    }
+    .pokeInfo__text-container{
+        height: 88%;
+        /* background-color: red; */
+    }
+
+    .pokeInfo__card{
+         width:60%; 
+        /* min-width: 360px; */
+        
+    }
+}
+
+@media (min-width: 992px){
+    .pokeInfo__header{
+        background-position: right;
+        width: 100%;
+        height: 165px;
+        min-height: 120px;
+    }
+    .pokeInfo__text-container{
+        height: 85%;
+    }
+}
+
+@media (min-width: 1200px){
+    .pokeInfo__header{
+        background-position: right;
+        width: 100%;
+        height: 188px;
+        min-height: 120px;
+    }
+    .pokeInfo__text-container{
+        height: 80%;
+    }
+}
+
+@media (min-width: 1400px){
+    .pokeInfo__header{
+        background-position: right;
+        width: 100%;
+        height: 252px;
+        min-height: 120px;
+       
+    }
+}
+@media (min-width: 1800px){
+    .pokeInfo__header{
+        background-position: right;
+        width: 100%;
+        height: 295px;
+        min-height: 120px;
+       
+    }
+}
