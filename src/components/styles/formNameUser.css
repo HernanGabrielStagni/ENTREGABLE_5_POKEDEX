@@ -67,7 +67,7 @@ padding: .3em .5em ;
     padding: .5em;
     margin: 0;
   
-    font-size: 1.2rem;
+    font-size: 1.1rem;
      
 }
 .form__btn{
@@ -75,6 +75,17 @@ padding: .3em .5em ;
     /* background-color: aqua; */
   
 }
+}
+
+@media (min-width: 325px) {
+    .form{
+    
+        padding: .5em;
+        margin: 0;
+      
+        font-size: 1.2rem;
+         
+    }
 }
 
 /* @media (max-width: 800px) {
