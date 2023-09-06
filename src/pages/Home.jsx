@@ -34,7 +34,7 @@ const Home = () => {
       </section>
 
       <div className="home__footer">
-        <img src="/img/otros/footer_Pokedex_png_SFondo  cortito mas alto.png" alt="" />
+        <img src="/public/img/otros/home_Footer_alto2.png" alt="" />
       </div>
       
       {/* <FooterPokeball /> */}
