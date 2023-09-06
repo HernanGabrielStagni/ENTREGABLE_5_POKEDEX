@@ -19,15 +19,20 @@
 
 /********** BANER DE POKEDEX GRANDE **********/
 .home__body-banner{
-    height: 50%;
+    height: 70%;
     padding: 0 15%;
     display: flex;
     justify-content: center;
     align-items: center; 
+  
    
-
+}
+.home__body-banner img{
+    aspect-ratio:3 ;
 
 }
+
+
 
 
 /*********** CONTENEDOR DE LOS TEXTOS DE SALUDO LOGIN Y FORMULARIO *********/
