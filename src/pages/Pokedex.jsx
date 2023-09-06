@@ -20,7 +20,7 @@ const Pokedex = () => { //aquí llega luego de que intoducimos un usuario en For
         <section className='pokedex__form-and-pokecontainer'>
             <p className='pokedex__welcome'>
               <span className='pokedex__welcome-span1'>Welcome {trainerName},</span>
-              <span className='pokedex__welcome-span2'> here you can find your favorite Pokemon</span>
+              <span className='pokedex__welcome-span2'> find your favorite pokemon .!</span>
             </p>
             <FormPoke setFormUrl = {setFormUrl} urlBase = {urlBase} />
             <PokeContainer formUrl = {formUrl}  />

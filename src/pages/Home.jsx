@@ -26,15 +26,15 @@ const Home = () => {
           <article className="home__body-saludo-login">
               
               <h2>Hi... Pokemon Trainer !</h2>
-              <p>Pleace give us your trainer name to start.</p>
-              
+              <p>To start give your trainername</p>
+                        
               <FormNameUser/>
 
           </article>
       </section>
 
       <div className="home__footer">
-        <img src="/public/img/otros/home_Footer_alto2.png" alt="" />
+        <img src="/img/otros/home_Footer_alto2.png" alt="" />
       </div>
       
       {/* <FooterPokeball /> */}

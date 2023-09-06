@@ -1,6 +1,6 @@
  /*********** CONTENEDOR GENERAL DEL HOME*********/
 .home__container{
-    background-color: #df5f19;
+    background-color: #f3f0ef;
     display: grid;
     grid-template-rows: 1fr auto; /* La primera fila ocupa todo el alto disponible, la segunda fila se ajusta automáticamente al contenido */
     height: 100vh; /* Esto asegura que el contenedor ocupe todo el alto de la ventana */
@@ -28,7 +28,7 @@
    
 }
 .home__body-banner img{
-    aspect-ratio:3 ;
+    aspect-ratio:2 ;
 
 }
 
@@ -38,8 +38,8 @@
 /*********** CONTENEDOR DE LOS TEXTOS DE SALUDO LOGIN Y FORMULARIO *********/
 .home__body-saludo-login{
 /* background-color: rgb(157, 98, 205); */
-color: #FE1936;
-/* padding: 2em; */
+color: #b7b1b2;
+padding: .8em; 
 
 height: 100%;
 display: grid;
