@@ -14,6 +14,7 @@
     /* background-color: aqua; */
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .formPokeContainer__form input{
@@ -37,9 +38,12 @@
     height: 40px;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
  
+
+
 @media (max-width: 576px){
     .formPokeContainer__form input{
         border-radius: .5em 0 0 .5em;
