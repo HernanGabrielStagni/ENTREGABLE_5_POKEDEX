@@ -1,3 +1,10 @@
+.app{
+    background-color: red;
+    height: 100vh;
+ 
+}
+
 input, button, select{
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+
 }

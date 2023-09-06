@@ -25,8 +25,8 @@ const Home = () => {
 
           <article className="home__body-saludo-login">
               
-              <h2>Hello Trainer !</h2>
-              <p>To start give your name</p>
+              <h2>Hi... Pokemon Trainer !</h2>
+              <p>Pleace give us your trainer name to start.</p>
               
               <FormNameUser/>
 
@@ -34,7 +34,7 @@ const Home = () => {
       </section>
 
       <div className="home__footer">
-      <img src="/img/otros/footer_Pokedex_png_SFondo  cortito mas alto.png" alt="" />
+        <img src="/img/otros/footer_Pokedex_png_SFondo  cortito mas alto.png" alt="" />
       </div>
       
       {/* <FooterPokeball /> */}

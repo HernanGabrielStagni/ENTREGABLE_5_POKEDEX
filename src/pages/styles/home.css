@@ -1,12 +1,12 @@
- 
+ /*********** CONTENEDOR GENERAL DEL HOME*********/
 .home__container{
-    background-color: #fdfbf8;
+    background-color: #df5f19;
     display: grid;
     grid-template-rows: 1fr auto; /* La primera fila ocupa todo el alto disponible, la segunda fila se ajusta automáticamente al contenido */
     height: 100vh; /* Esto asegura que el contenedor ocupe todo el alto de la ventana */
-
+    font-family: Georgia, 'Times New Roman', Times, serif;    
 }
-
+ /*********** CONTENEDOR  CUERPO DEL HOME -- MENOS EL FOOTER  *********/
 .home__body{
     /* background-color: rgb(19, 57, 110); */
     height: 100%;
@@ -14,13 +14,13 @@
     display: flex;
     flex-direction: column;
    
-    
-    /* background-color: rgb(187, 247, 227);  */
 }
 
+
+/********** BANER DE POKEDEX GRANDE **********/
 .home__body-banner{
     height: 50%;
-    padding: 15%;
+    padding: 0 15%;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -29,10 +29,12 @@
 
 }
 
+
+/*********** CONTENEDOR DE LOS TEXTOS DE SALUDO LOGIN Y FORMULARIO *********/
 .home__body-saludo-login{
 /* background-color: rgb(157, 98, 205); */
 color: #FE1936;
-padding: 2em;
+/* padding: 2em; */
 
 height: 100%;
 display: grid;
@@ -40,18 +42,23 @@ align-content: center;
 text-align: center; 
 }
 
+
+/***********  <h2>Hello Trainer !</h2>  *********/
 .home__body-saludo-login h2{
 color: black;
 }
 
+
+/***********  <p>To start give your name</p>  *********/
 .home__body-saludo-login p{
     color: rgb(239, 44, 10);
     }
 
 
 
+/***********  <img /img/otros/footer_Pokedex_png_SFondo  cortito mas alto.png" alt="" /> *********/
 .home__footer{
-    margin-bottom: 10%;
+    margin-bottom: 30%;
 /* align-self: end;  */
 }
 
