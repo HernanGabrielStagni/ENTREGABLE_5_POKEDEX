@@ -22,7 +22,7 @@ const FormNameUser = () => {
     <>
       <form className='form' onSubmit={handleSubmit}>
         <div>
-          <input className='form__input' ref={inputName} type="text" />
+          <input className='form__input' placeholder='your name' ref={inputName} type="text" />
           <button className='form__btn' >Start</button>
         </div>  
         
